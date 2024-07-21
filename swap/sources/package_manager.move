@@ -59,4 +59,6 @@ module swap::package_manager {
 
     #[test_only]
     friend swap::package_manager_tests;
+    #[test_only]
+    friend swap::coin_wrapper_tests;
 }
